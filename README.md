@@ -10,7 +10,7 @@
 ## Installer Crypterm
 
 ### Installation classique (Compatible avec la plupart des OS)
-Installez Node.js depuis le site de [nodejs](https://nodejs.org/) ou un autre endroit tierce ayant npm embarqué, Créez un dossier "Crypterm", Ouvrez un invite de commande / terminal depuis ce dossier puis faites cette commande pour installez toutes les dépendance `npm i terminal-kit clipboardy cryptr`. Téléchargez le fichier zip correspondant à la dernière version et extrayer le dossier "classic" et "classic-kad" dans le dossier précédemment créé. Une fois ceci fait tout est bon : Rendez vous à l'étape pour lancer Crypterm.
+Installez Node.js depuis le site de [nodejs](https://nodejs.org/) ou un autre endroit tierce ayant npm embarqué, Créez un dossier "Crypterm", Ouvrez un invite de commande / terminal depuis ce dossier puis faites cette commande pour installez toutes les dépendance `npm i terminal-kit clipboardy cryptr`. Téléchargez le fichier zip correspondant à la dernière version et extrayer le dossier "classic" et "classic-kad" dans le dossier précédemment créé. Une fois ceci fait tout est bon : Rendez vous à l'étape pour chiffrer / déchiffrer du texte avec Crypterm.
 
 
 ### Installation rapide (Compatible avec la plupart des distributions Linux et MacOS)
@@ -24,20 +24,20 @@ Bientôt disponible...
 
 Ouvrez un invite de commande / terminal dans le dossier que vous avez créé lors de l'installation.
 
-### Chiffrer un fichier | classic
+### Chiffrer un texte | classic
 
 Entrez la commande `node classic/crypt.js` puis entrer la clé qui permettra de déchiffrer votre fichier plus tard, Ensuite entrer un texte que vous voulez chiffrer. Le texte chiffré est mit automatiquement dans votre presse papier.
 
-### Déchiffrer un fichier | classic
+### Déchiffrer un texte | classic
 
 Entrez la commande `node classic/uncrypt.js` puis entrer la clé qui permet de déchiffrer votre fichier, Ensuite entrer le texte déjà chiffré. Le texte déchiffré est mit automatiquement dans votre presse papier.
 
 
-### Chiffrer un fichier | classic-kad
+### Chiffrer un texte | classic-kad
 
 Entrez la commande `node classic-kad/crypt.js` puis entrer un texte que vous voulez chiffrer. Le texte chiffré est mit automatiquement dans votre presse papier.
 
-### Déchiffrer un fichier | classic-kad
+### Déchiffrer un texte | classic-kad
 
 Entrez la commande `node classic-kad/uncrypt.js` puis entrer le texte déjà chiffré. Le texte déchiffré est mit automatiquement dans votre presse papier.
 
