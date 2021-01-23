@@ -15,9 +15,14 @@ cd ..
 cd classic
 curl -curl -O https://raw.githubusercontent.com/johan-perso/crypterm/main/classic/crypt.js
 curl -curl -O https://raw.githubusercontent.com/johan-perso/crypterm/main/classic/uncrypt.js
+rm url
 cd ..
 cd classic-kad
 curl -curl -O https://raw.githubusercontent.com/johan-perso/crypterm/main/classic-kad/crypt.js
 curl -curl -O https://raw.githubusercontent.com/johan-perso/crypterm/main/classic-kad/uncrypt.js
-cd ../..
+rm url
+cd ..
+rm url
+cd ..
+rm url
 echo "Installation terminé.. "
