@@ -12,9 +12,12 @@ mkdir node_modules
 cd node_modules
 npm i terminal-kit clipboardy cryptr moment
 cd ..
-curl -x -o https://raw.githubusercontent.com/johan-perso/crypterm/main/classic/crypt.js  > classic/crypt.js
-curl -x -o https://raw.githubusercontent.com/johan-perso/crypterm/main/classic/uncrypt.js  > classic/uncrypt.js
-curl -x -o https://raw.githubusercontent.com/johan-perso/crypterm/main/classic-kad/crypt.js  > classic-kad/crypt.js
-curl -x -o https://raw.githubusercontent.com/johan-perso/crypterm/main/classic-kad/uncrypt.js  > classic-kad/uncrypt.js
+cd classic
+curl -x -o https://raw.githubusercontent.com/johan-perso/crypterm/main/classic/crypt.js
+curl -x -o https://raw.githubusercontent.com/johan-perso/crypterm/main/classic/uncrypt.js
+cd ..
+cd classic-kad
+curl -x -o https://raw.githubusercontent.com/johan-perso/crypterm/main/classic-kad/crypt.js
+curl -x -o https://raw.githubusercontent.com/johan-perso/crypterm/main/classic-kad/uncrypt.js
 cd ../..
 echo "Installation terminé.. "
