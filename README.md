@@ -10,7 +10,7 @@
 ## Installer Crypterm
 
 ### Installation classique (Compatible avec la plupart des OS)
-Installez Node.js depuis le site de [nodejs](https://nodejs.org/) ou un autre endroit tierce ayant npm embarqué, Créez un dossier "Crypterm", Ouvrez un invite de commande / terminal depuis ce dossier puis faites cette commande pour installez toutes les dépendance `npm i terminal-kit clipboardy cryptr moment`. Téléchargez le fichier zip correspondant à la dernière version et extrayer le dossier "classic" et "classic-kad" dans le dossier précédemment créé. Une fois ceci fait tout est bon : Rendez vous à l'étape pour chiffrer / déchiffrer du texte avec Crypterm.
+Installez Node.js depuis le site de [nodejs](https://nodejs.org/) ou un autre endroit tierce ayant npm embarqué, Créez un dossier "Crypterm", Ouvrez un invite de commande / terminal depuis ce dossier puis faites cette commande pour installer toutes les dépendances `npm i terminal-kit clipboardy cryptr moment`. Téléchargez le fichier zip correspondant à la dernière version et extrayez le dossier "classic" et "classic-kad" dans le dossier précédemment créé. Une fois ceci fait tout est bon : Rendez-vous à l'étape pour chiffrer / déchiffrer du texte avec Crypterm.
 
 
 ### Installation rapide (Compatible avec la plupart des distributions Linux et MacOS)
