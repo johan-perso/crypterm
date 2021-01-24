@@ -45,3 +45,8 @@ Entrez la commande `node classic-kad/uncrypt.js` puis entrer le texte déjà chi
 ## J'ai besoin d'aide
 
 Si vous avez besoin d'aide, Venez m'envoyer un message privé sur Discord ou Twitter (https://twitter.com/Johan_Perso) (Johan#8021). Vous pouvez aussi utiliser les issues disponible sur GitHub pour signaler un problème.
+
+
+## Wiki
+
+Le wiki de Crypterm contient plus d'informations que ce fichier, Le wiki se trouve à cette adresse : https://github.com/johan-perso/crypterm/wiki
