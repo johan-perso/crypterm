@@ -16,7 +16,7 @@ Installez Node.js depuis le site de [nodejs](https://nodejs.org/) ou un autre en
 ### Installation rapide (Compatible avec la plupart des distributions Linux et MacOS)
 Installez [nodejs](https://nodejs.org/) puis faites cette commande dans un terminal
 ```
-Bientôt disponible...
+sudo curl -curl -s -L https://raw.githubusercontent.com/johan-perso/crypterm/main/installer.txt | bash
 ```
 
 
@@ -42,11 +42,11 @@ Entrez la commande `node classic-kad/crypt.js` puis entrer un texte que vous vou
 Entrez la commande `node classic-kad/uncrypt.js` puis entrer le texte déjà chiffré. Le texte déchiffré est mit automatiquement dans votre presse papier.
 
 
-## J'ai besoin d'aide
-
-Si vous avez besoin d'aide, Venez m'envoyer un message privé sur Discord ou Twitter (https://twitter.com/Johan_Perso) (Johan#8021). Vous pouvez aussi utiliser les issues disponible sur GitHub pour signaler un problème.
-
-
 ## Wiki
 
 Le wiki de Crypterm contient plus d'informations que ce fichier, Le wiki se trouve à cette adresse : https://github.com/johan-perso/crypterm/wiki
+
+
+## J'ai besoin d'aide
+
+Si vous avez besoin d'aide, Venez m'envoyer un message privé sur Discord ou Twitter (https://twitter.com/Johan_Perso) (Johan#8021). Vous pouvez aussi utiliser les issues disponible sur GitHub pour signaler un problème.
