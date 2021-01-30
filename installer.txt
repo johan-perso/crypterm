@@ -6,22 +6,12 @@ echo "L'installation néecésite nodejs."
 echo "################################"
 mkdir Crypterm
 cd Crypterm
-mkdir classic
-mkdir classic-kad
 mkdir node_modules
 cd node_modules
-npm i terminal-kit clipboardy cryptr moment
+npm i terminal-kit clipboardy cryptr moment node-fetch
 cd ..
-cd classic
-curl -curl -O https://raw.githubusercontent.com/johan-perso/crypterm/main/classic/crypt.js
-curl -curl -O https://raw.githubusercontent.com/johan-perso/crypterm/main/classic/uncrypt.js
-rm url
-cd ..
-cd classic-kad
-curl -curl -O https://raw.githubusercontent.com/johan-perso/crypterm/main/classic-kad/crypt.js
-curl -curl -O https://raw.githubusercontent.com/johan-perso/crypterm/main/classic-kad/uncrypt.js
-rm url
-cd ..
+curl -curl -O https://raw.githubusercontent.com/johan-perso/crypterm/main/crypt.js
+curl -curl -O https://raw.githubusercontent.com/johan-perso/crypterm/main/index.js
 rm url
 cd ..
 rm url
