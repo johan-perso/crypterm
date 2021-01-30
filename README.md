@@ -20,9 +20,9 @@ sudo curl -curl -s -L https://raw.githubusercontent.com/johan-perso/crypterm/mai
 ```
 
 
-## Utilisation de Crypterm
+## Lancer Crypterm
 
-Ouvrez un invite de commande / terminal dans le dossier que vous avez créé lors de l'installation et faites la commande `node index.js`. Si vous avez utilisé l'installateur, faites la commande `node Crypterm`
+Ouvrez un invite de commande / terminal dans le dossier que vous avez créé lors de l'installation et faites la commande `node index.js`. Si vous avez utilisé l'installateur, faites la commande `node Crypterm` dans un terminal.
 
 
 ## Wiki
