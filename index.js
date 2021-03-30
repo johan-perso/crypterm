@@ -7,9 +7,33 @@ const crypterm = require('./crypt.js'); // Fichier local
 // Partie principale du code
 term("Que voulez vous faire ?") // Demande ce qu'on veut faire
 
-term.singleColumnMenu(["Chiffrer","Déchiffrer"], function(error, response){
+term.singleColumnMenu(["Chiffrer","Déchiffrer","Informations sur Crypterm"], function(error, response){
         if(response.selectedIndex === 0) var method = "crypt" // Définir METHOD avec la méthode
         if(response.selectedIndex === 1) var method = "uncrypt" // Définir METHOD avec la méthode
+
+        // Si la méthode est d'afficher des informations
+        if(response.selectedIndex === 2){
+            term("Crypterm est un projet crée par Johan (")
+            term.cyan("https://bit.ly/johanstickman-home")
+            term("). Ce projet permet de chiffrer et de déchiffrer du texte grâce à plusieurs méthode de chiffrement depuis un terminal. ")
+            term("Johan possède aussi d'autres projet via terminal comme Twitterminal (")
+            term.cyan("https://bit.ly/twitterminal-home")
+            term("), Terminalchat (")
+            term.cyan("https://bit.ly/terminalchat-home")
+            term("), Rickdetect (")
+            term.cyan("https://bit.ly/rickdetect-github")
+            term("). Vous pouvez contacter Johan via Twitter (")
+            term.cyan("https://bit.ly/johanstickman-twitter")
+            term(") ou Discord (")
+            term.cyan("Johan#8021")
+            term("). Pour signaler un problème ou apporter son aide à Crypterm, veuillez vous rendre dans les issues de Crypterm (")
+            term.cyan("http://bit.ly/crypterm-issue")
+            term("). Il existe aussi un wiki (")
+            term.cyan("http://bit.ly/crypterm-wiki")
+            term(") pour Crypterm.")
+
+            process.exit()
+        }
 
         term("\nQuel type de chiffrement voulez vous utilisez ?") // Demande le type de chiffrement
         term.singleColumnMenu(["classic","classic-kad","Binaire (Bêta)","aio"], function(error, response){
