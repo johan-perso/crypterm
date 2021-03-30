@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 // Dépendances
 var term = require('terminal-kit').terminal; // https://www.npmjs.com/package/terminal-kit
 const crypterm = require('./crypt.js'); // Fichier local
@@ -10,10 +12,11 @@ term.singleColumnMenu(["Chiffrer","Déchiffrer"], function(error, response){
         if(response.selectedIndex === 1) var method = "uncrypt" // Définir METHOD avec la méthode
 
         term("\nQuel type de chiffrement voulez vous utilisez ?") // Demande le type de chiffrement
-        term.singleColumnMenu(["classic","classic-kad","Binaire (Bêta)"], function(error, response){
+        term.singleColumnMenu(["classic","classic-kad","Binaire (Bêta)","aio"], function(error, response){
             if(response.selectedIndex === 0) var type = "classic" // Définir TYPE avec le type de chiffrement
             if(response.selectedIndex === 1) var type = "classic-kad" // Définir TYPE avec le type de chiffrement
             if(response.selectedIndex === 2) var type = "binary" // Définir TYPE avec le type de chiffrement
+            if(response.selectedIndex === 3) var type = "aio" // Définir TYPE avec le type de chiffrement
 
             if(response.selectedIndex === 0){
                 
@@ -46,7 +49,7 @@ term.singleColumnMenu(["Chiffrer","Déchiffrer"], function(error, response){
 
             });    
         } else {
-            if(response.selectedIndex === 1 || response.selectedIndex === 2){  
+            if(response.selectedIndex === 1 || response.selectedIndex === 2 || response.selectedIndex === 3){  
                 term("\nVeuillez saisir un texte à (dé)chiffré : ") // Demande de texte
                 term.cyan() // Met le texte écrit par l'utilisateur en cyan
                 term.inputField(function(error, text){
