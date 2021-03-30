@@ -1,0 +1,36 @@
+{
+  "name": "crypterm",
+  "version": "0.0.0",
+  "description": "Chiffrer du texte depuis un terminal.",
+  "main": "index.js",
+  "dependencies": {
+    "clipboardy": "^2.3.0",
+    "cryptr": "^6.0.2",
+    "moment": "^2.29.1",
+    "node-fetch": "^2.6.1",
+    "terminal-kit": "^2.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "crypterm": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johan-perso/crypterm.git"
+  },
+  "keywords": [
+    "crypt",
+    "chiffrer",
+    "cli",
+    "terminal"
+  ],
+  "author": "JohanStickman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johan-perso/crypterm/issues"
+  },
+  "homepage": "https://github.com/johan-perso/crypterm#readme"
+}
