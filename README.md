@@ -1,3 +1,7 @@
+# Arrêt de Crypterm
+
+J'ai jamais trouvé l'utilité de Crypterm, c'était juste un projet que j'avais fait pour passer le temps, à l'époque où mon niveau en code était plutôt approximatif. Notez que Crypterm reste normalement fonctionnel, et que vous pouvez me demander de l'aide via Discord (Johan#8021) ou Twitter (@Johan_Stickman). Cependant, aucune mise à jour ne peut être garantie.
+
 # Crypterm
 
 ## Prérequis
